@@ -58,7 +58,7 @@ function back(){
         pl.style.display="none";
 pa.style.display="inline";
     })
-audio.addEventListener("pause",function(){
+audio.onpause=function(){
 pl.style.display="inline";
 pa.style.display="none";
 }
