@@ -31,6 +31,8 @@ pl.style.display="inline";
 pa.style.display="none";
 nam.innerHTML=names[i];
 audio.play()
+audio.playbackRate = 1.0;
+audio.muted= false;
 }
 function back(){
     if(i==0){
@@ -44,6 +46,8 @@ function back(){
     pa.style.display="none";
     nam.innerHTML=names[i];
     audio.play();
+    audio.playbackRate = 1.0;
+    audio.muted= false;
 }
     audio.onended=function(){
         pl.style.display="inline";
