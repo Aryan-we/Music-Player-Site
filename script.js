@@ -58,10 +58,7 @@ function back(){
         pl.style.display="none";
 pa.style.display="inline";
     })
-if(audio.paused){
+audio.onpaused=function(){
 pl.style.display="inline";
 pa.style.display="none";
-}else{
-pl.style.display="none";
-pa.style.display="inline";
 }
