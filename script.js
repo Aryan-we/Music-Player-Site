@@ -51,10 +51,14 @@ function back(){
 }
     audio.onended=function(){
         pl.style.display="inline";
-        pa.style.display="none";s
-    alert("ended");
+        pa.style.display="none";
+   // alert("ended");
     }
     audio.addEventListener("playing",function(){
         pl.style.display="none";
 pa.style.display="inline";
     })
+audio.paused=function(){
+pl.style.display="inline";
+pa.style.display="none";
+}
