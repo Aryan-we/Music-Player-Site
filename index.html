@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Bijlee Bijlee</h1>
+    <img src="./photos/img11.jpg" alt=""><br>
+    <audio id="myaudio" controls>
+        <source src="./songs/Bijlee Bijlee Harrdy Sandhu 128 Kbps.mp3" type="audio/mpeg">
+    </audio>
+    <div>
+        <i class="fa-solid fa-arrow-left" onclick="back()"></i>
+    <i class="fas fa-play" onclick="play()" id="play"></i>
+    <i class="fas fa-pause" onclick="pause()" id="pause"></i>
+    <i class="fa-solid fa-arrow-right" onclick="next()"></i>
+    </div>
+    
+    <script src="./script.js"></script>
+
+</body>
+</html>
