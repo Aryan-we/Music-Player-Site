@@ -62,12 +62,4 @@ audio.onpause=function(){
 pl.style.display="inline";
 pa.style.display="none";
 }
-window.addEventListener("load", function () {
-      setTimeout(() => {
-        document.getElementById("loader").style.opacity = "0";
-        setTimeout(() => {
-          document.getElementById("loader").style.display = "none";
-         
-        }, 1000);
-      }, 4500); // Show loader for 3s
-    });
+
