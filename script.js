@@ -1,3 +1,13 @@
+window.addEventListener("load", function () {
+      setTimeout(() => {
+        document.getElementById("loader").style.opacity = "0";
+        setTimeout(() => {
+          document.getElementById("loader").style.display = "none";
+         
+        }, 1000);
+      }, 4500); 
+    });
+
 var audio=document.getElementById("myaudio");
 var image=document.querySelector("img");
 var nam=document.querySelector("h1");
@@ -62,12 +72,3 @@ audio.onpause=function(){
 pl.style.display="inline";
 pa.style.display="none";
 }
-window.addEventListener("load", function () {
-      setTimeout(() => {
-        document.getElementById("loader").style.opacity = "0";
-        setTimeout(() => {
-          document.getElementById("loader").style.display = "none";
-         
-        }, 1000);
-      }, 4500); 
-    });
